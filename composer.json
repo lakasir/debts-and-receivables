@@ -1,0 +1,17 @@
+{
+    "name": "lakasir/debtsandreceivables",
+    "autoload": {
+        "psr-4": {
+            "Modules\\DebtsAndReceivables\\": "src",
+            "Modules\\DebtsAndReceivables\\Database\\Factories\\": "database/factories",
+            "Modules\\DebtsAndReceivables\\Database\\Seeders\\": "database/seeders"
+        }
+    },
+    "authors": [
+        {
+            "name": "lakasir",
+            "email": "lakasirapp@gmail.com",
+            "role": "Owner"
+        }
+    ]
+}
