@@ -5,7 +5,7 @@ namespace Modules\DebtsAndReceivables\Filament\Resources\ReceivableResource\Page
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
 use Modules\DebtsAndReceivables\Filament\Resources\ReceivableResource;
-use Modules\DebtsAndReceivables\Filament\Resources\ReceivableResource\Widgets\GlobalStats;
+use Modules\DebtsAndReceivables\Filament\Resources\ReceivableResource\Widgets\StatsReceivable;
 
 class ListReceivables extends ListRecords
 {
@@ -21,7 +21,7 @@ class ListReceivables extends ListRecords
     protected function getHeaderWidgets(): array
     {
         return [
-            // GlobalStats::make(),
+            StatsReceivable::make(),
         ];
     }
 }

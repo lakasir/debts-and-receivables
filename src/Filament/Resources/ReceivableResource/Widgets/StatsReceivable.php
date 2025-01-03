@@ -2,11 +2,11 @@
 
 namespace Modules\DebtsAndReceivables\Filament\Resources\ReceivableResource\Widgets;
 
-use App\Models\Tenants\Member;
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Number;
+use Modules\DebtsAndReceivables\Models\Member;
 use Modules\DebtsAndReceivables\Models\Receivable;
 
 class StatsReceivable extends BaseWidget
